@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+<div class="bar bar-header bar-balanced">
+  <h1 class="title">Calorific</h1>
+</div>
+  <body>
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Calorific</h1>
+      </ion-header-bar>
+      <ion-content>
+<div class="list card">
+
+  <div class="item item-avatar">
+    <img src="http://www.google.ie/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRw&url=http%3A%2F%2Fwww.painted-tiles.com%2F&ei=sOgKVaSCB_HG7Aaci4GQDQ&bvm=bv.88528373,d.ZGU&psig=AFQjCNHLWRSYuAe_p2PnBZtmv--I68aSkA&ust=1426864680890821">
+    <h2>Carrots</h2>
+    <p>Vegetable</p>
+  </div>
+
+  <div class="item item-body">
+    <img class="full-image" src="http://www.thesleuthjournal.com/wp-content/uploads/2013/10/carrots-1.jpg">
+    <p>
+      This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
+      the content is from a card-body consisting of an image and paragraph text. The footer
+      consists of tabs, icons aligned left, within the card-footer.
+    </p>
+    <p>
+      <a href="#" class="subdued">1 Like</a>
+      <a href="#" class="subdued">5 Comments</a>
+    </p>
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item" href="#">
+      <i class="icon ion-thumbsup"></i>
+      Like
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-chatbox"></i>
+      Comment
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-share"></i>
+      Share
+    </a>
+  </div>
+
+</div>
+<div class="list card">
+
+  <div class="item item-avatar">
+    <img src="mcfly.jpg">
+    <h2>Apple</h2>
+    <p>Fruits</p>
+  </div>
+
+  <div class="item item-body">
+    <img class="full-image" src="data:image/jpeg;base64,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">
+    <p>
+      This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
+      the content is from a card-body consisting of an image and paragraph text. The footer
+      consists of tabs, icons aligned left, within the card-footer.
+    </p>
+    <p>
+      <a href="#" class="subdued">1 Like</a>
+      <a href="#" class="subdued">5 Comments</a>
+    </p>
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item" href="#">
+      <i class="icon ion-thumbsup"></i>
+      Like
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-chatbox"></i>
+      Comment
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-share"></i>
+      Share
+    </a>
+  </div>
+
+</div>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>
